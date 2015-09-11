@@ -59,6 +59,7 @@
   <ItemGroup>
     <Content Include="Registration.aspx" />
     <Content Include="ResultsPage.aspx" />
+    <Content Include="Style\Site.css" />
     <Content Include="UpdatePanelDemo.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
