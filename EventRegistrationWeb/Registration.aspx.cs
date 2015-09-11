@@ -11,7 +11,7 @@ namespace EventRegistrationWeb
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            UnobtrusiveValidationMode = UnobtrusiveValidationMode.None;
         }
 
         public RegistraionInfo registraionInfo

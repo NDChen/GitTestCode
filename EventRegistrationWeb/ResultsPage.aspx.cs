@@ -13,10 +13,19 @@ namespace EventRegistrationWeb
         {
             try
             {
-                RegistraionInfo ri = PreviousPage.registraionInfo;
+                if(PreviousPage.IsValid)
+                {
+                    RegistraionInfo ri = PreviousPage.registraionInfo;
 
-                labelResult.Text = String.Format("{0} {1} selected the event {2}",
-                    ri.FirstName, ri.LastName, ri.SelectEvent);
+                    labelResult.Text = String.Format("{0} {1} selected the event {2}",
+                        ri.FirstName, ri.LastName, ri.SelectEvent);
+                }
+                else
+                {
+                    labelResult.Text = "Error in previous page!";
+                    return;
+                }
+
             }
             catch
             {

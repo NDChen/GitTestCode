@@ -58,6 +58,15 @@ namespace EventRegistrationWeb {
         protected global::System.Web.UI.WebControls.TextBox textFirstname;
         
         /// <summary>
+        /// rvToFirstname control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rvToFirstname;
+        
+        /// <summary>
         /// labelLastname control.
         /// </summary>
         /// <remarks>
@@ -76,6 +85,15 @@ namespace EventRegistrationWeb {
         protected global::System.Web.UI.WebControls.TextBox textLastname;
         
         /// <summary>
+        /// rvToLastname control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rvToLastname;
+        
+        /// <summary>
         /// labelEmail control.
         /// </summary>
         /// <remarks>
@@ -92,6 +110,24 @@ namespace EventRegistrationWeb {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox textEmail;
+        
+        /// <summary>
+        /// rvToEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rvToEmail;
+        
+        /// <summary>
+        /// revToEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revToEmail;
         
         /// <summary>
         /// buttonSubmit control.
