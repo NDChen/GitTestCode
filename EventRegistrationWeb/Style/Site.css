@@ -31,3 +31,20 @@ h1 {
     margin: 5px;
     vertical-align: text-bottom;
 }
+
+.menu ul li a {
+    background-color: #008085;
+    border: 1px #4E667D solid;
+    color: #DDE4EC;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+    .menu ul li a:hover {
+        background-color: #BFCBD6;
+        color: #456c71;
+        text-decoration: none;
+    }

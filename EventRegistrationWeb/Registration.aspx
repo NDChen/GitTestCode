@@ -16,34 +16,34 @@
             text-align:center;
         }
         .auto-style4 {
-            height: 20px;
-            width: 313px;
-            text-align:center;
-        }
+        height: 20px;
+        width: 342px;
+        text-align: center;
+    }
         .auto-style5 {
-            width: 313px;
-        }
+        width: 342px;
+    }
         .auto-style6 {
             width: 73px;
             height: 26px;
             text-align:center;
         }
         .auto-style7 {
-            width: 313px;
+            width: 342px;
             height: 26px;
             text-align:center;
         }
         .auto-style8 {
-            height: 20px;
-            width: 91px;
-            text-align:center;
-        }
+        height: 20px;
+        width: 126px;
+        text-align: center;
+    }
         .auto-style9 {
-            width: 91px;
-            text-align:center;
-        }
+        width: 126px;
+        text-align: center;
+    }
         .auto-style10 {
-            width: 91px;
+            width: 126px;
             height: 26px;
             text-align:center;
         }
@@ -95,11 +95,11 @@
                     <asp:Label ID="labelEmail" runat="server" Text="Email:"></asp:Label>
                 </td>
                 <td class="auto-style10">
-                    <asp:TextBox ID="textEmail" runat="server" Width="184px"></asp:TextBox>
+                    <asp:TextBox ID="textEmail" runat="server" Width="184px"></asp:TextBox>&nbsp;
+                    <asp:RegularExpressionValidator ID="revToEmail" runat="server" ErrorMessage="Enter a valid Email!" ControlToValidate="textEmail" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
                 </td>
                 <td class="auto-style7">
                     <asp:RequiredFieldValidator id="rvToEmail" runat="server" ErrorMessage="Enter your Email address!" ControlToValidate="textEmail"></asp:RequiredFieldValidator>
-                    <asp:RegularExpressionValidator ID="revToEmail" runat="server" ErrorMessage="Enter a valid Email!" ControlToValidate="textEmail" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
                 </td>
             </tr>
             <tr>

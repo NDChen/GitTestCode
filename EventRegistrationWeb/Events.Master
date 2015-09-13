@@ -17,7 +17,9 @@
             </h1>
         </div>
         <div class="navigation">
-            Menu will go here
+            &nbsp;
+            <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticDisplayLevels="2" CssClass="menu"></asp:Menu>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
         </div>
         <div class="content">
             <asp:ContentPlaceHolder ID="ContentPlaceHolderMain" runat="server">
