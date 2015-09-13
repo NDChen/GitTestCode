@@ -1,24 +1,24 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Registration.aspx.cs" Inherits="EventRegistrationWeb.Registration" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Events.Master" AutoEventWireup="true" CodeBehind="Registration.aspx.cs" Inherits="EventRegistrationWeb.Registration" %>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
+<asp:Content ID="ContentHead" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
         .auto-style1 {
             width: 31%;
+            text-align: center;
         }
         .auto-style2 {
             width: 73px;
+            text-align:center;
         }
         .auto-style3 {
             width: 73px;
             height: 20px;
+            text-align:center;
         }
         .auto-style4 {
             height: 20px;
             width: 313px;
+            text-align:center;
         }
         .auto-style5 {
             width: 313px;
@@ -26,30 +26,34 @@
         .auto-style6 {
             width: 73px;
             height: 26px;
+            text-align:center;
         }
         .auto-style7 {
             width: 313px;
             height: 26px;
+            text-align:center;
         }
         .auto-style8 {
             height: 20px;
             width: 91px;
+            text-align:center;
         }
         .auto-style9 {
             width: 91px;
+            text-align:center;
         }
         .auto-style10 {
             width: 91px;
             height: 26px;
+            text-align:center;
         }
     </style>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-    
-    </div>
-        <table class="auto-style1">
+</asp:Content>
+<asp:Content ID="ContentMain" ContentPlaceHolderID="ContentPlaceHolderMain" runat="server">
+        <div>
+            <a href="https://github.com/NDChen">Github Press</a>
+        </div>
+        <table class="auto-style1" align="center">
             <tr>
                 <td id="labelEvent" class="auto-style3">
                     <asp:Label ID="Label1" runat="server" Text="Event:"></asp:Label>
@@ -107,6 +111,4 @@
                     &nbsp;</td>
             </tr>
         </table>
-    </form>
-</body>
-</html>
+</asp:Content>
